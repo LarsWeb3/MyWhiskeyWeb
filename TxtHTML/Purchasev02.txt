@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yamazaki Purchase</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    .card {
+      background-color: transparent;
+      border: none;
+    }
+    .card img {
+      max-width: 100%;
+      height: auto;
+    }
+    .btn-teal {
+      background-color: #7bffe5; /* Teal */
+      color: black;
+    }
+    .btn-orange {
+      background-color: #ffdcd1; /* Orange */
+      color: black;
+    }
+    .navbar {
+      background-color: #7bffe5 !important; /* Light Teal */
+    }
+    .navbar .nav-link {
+      color: white; /* Navbar link color */
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-md navbar-light">
+  <div class="container">
+    <a class="navbar-brand" href="WinePagev05.html">
+      <img src="W15.jpeg" alt="Your Logo" height="75">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="WinePagev05.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="OurStoryv2.html">Our Story</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="Purchasev02.html">Purchase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AdventureIntroV1.html">The Collectibles</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Communityv01.html">Our Community</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-6">
+      <!-- Card for 21+ -->
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="P01.jpeg" class="card-img-top" alt="21 Above">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text"></p>
+              <a href="Purchase03v01.html" class="btn btn-teal">Age 21 and Above</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <!-- Card for Below 21 -->
+      <div class="card">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="P02.jpeg" class="card-img-top" alt="Below 21">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <p class="card-text"></p>
+              <a href="AdventureIntroV1.html" class="btn btn-orange">Age Below 21</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <p>&copy; 2024 Your Whiskey Website. All rights reserved.</p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

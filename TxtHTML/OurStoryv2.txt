@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Story - Yamazaki Website</title>
+  <!-- Include Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+    .navbar {
+      background-color: #7bffe5; /* Light Teal */
+    }
+    .card {
+      background-color: transparent;
+      border: none;
+    }
+    .card img {
+      max-width: 80%;
+      height: auto;
+    }
+    .footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="WinePagev05.html">
+        <img src="W15.jpeg" alt="Your Logo" height="75">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="WinePagev05.html">Home</a>
+              </li>
+          <li class="nav-item">
+            <a class="nav-link" href="OurStoryv2.html">Our Story</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Purchasev02.html">Purchase</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="AdventureIntroV1.html">The Collectibles</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Communityv01.html">Our Community</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container mt-4">
+    <div class="row">
+      <!-- First Card: Yamazaki 18 Year Old -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="W01a.png" class="card-img-top" alt="Yamazaki 18 Year Old">
+          <div class="card-body">
+            <h5 class="card-title">Yamazaki 18 Year Old Single Malt Japanese Whisky</h5>
+            <p class="card-text">Savor the elegance and depth of Yamazaki 18 Year Old, a distinguished Japanese single malt whisky aged in oak barrels. Explore the heritage of Yamazaki Distillery and the craftsmanship behind this acclaimed expression.</p>
+            <p class="card-text">Cask Number: 151617</p>
+            <p class="card-text">Aging Data: 18 years</p>
+            <p class="card-text">Barrel Types: Oak barrels, possibly including Mizunara oak</p>
+            <p class="card-text">Tasting Notes: Rich fruit, oak spice, Mizunara incense</p>
+            <p class="card-text">Additional Details: ABV 43%, Bottled in Japan</p>
+            <p class="card-text">Distillery Histories: Yamazaki Distillery, Japan's oldest whisky distillery, founded in 1923</p>
+            <p class="card-text">Whiskey Legends and Lore: Myths surrounding the influence of Japanese oak (Mizunara) on whisky maturation and Yamazaki's pioneering role in Japanese whisky production</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Card: The Sacredness of Mizunara Oak -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="M01.jpeg" class="card-img-top" alt="The Sacredness of Mizunara Oak">
+          <div class="card-body">
+            <h5 class="card-title">The Sacredness of Mizunara Oak</h5>
+            <p class="card-text">According to Japanese mythology, Mizunara oak is revered for its spiritual significance and sacred properties. It is believed that spirits reside within the wood, imparting unique flavors and aromas to the whisky as it matures. Legends abound about the mystical qualities of Mizunara oak, with some claiming that it possesses the power to enhance the character of the spirit and imbue it with a sense of harmony and balance.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Third Card: The Art of Mizunara Oak Maturation -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="M02.jpeg" class="card-img-top" alt="The Art of Mizunara Oak Maturation">
+          <div class="card-body">
+            <h5 class="card-title">The Art of Mizunara Oak Maturation</h5>
+            <p class="card-text">Yamazaki Distillery is renowned for its pioneering use of Mizunara oak in whisky maturation, a practice that dates back to the distillery's founding in 1923. It is said that Yamazaki's founder, Shinjiro Torii, was inspired by the traditional craftsmanship and natural beauty of Mizunara oak and sought to harness its influence in creating distinctive Japanese whiskies. Over the years, Yamazaki has perfected the art of Mizunara oak maturation, unlocking its full potential to produce whiskies of unparalleled complexity and depth.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fourth Card: The Influence of Nature and Terroir -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="M03.jpeg" class="card-img-top" alt="The Influence of Nature and Terroir">
+          <div class="card-body">
+            <h5 class="card-title">The Influence of Nature and Terroir</h5>
+            <p class="card-text">Japanese whisky enthusiasts often speak of the influence of nature and terroir on the character of Yamazaki whiskies, attributing their unique flavor profiles to the pristine water source, climate, and environment surrounding the distillery. It is believed that these natural elements, combined with the use of Mizunara oak, contribute to the unmistakable Japanese character and elegance found in Yamazaki whiskies.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fifth Card: Yamazaki's Legacy of Innovation -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="M04.jpeg" class="card-img-top" alt="Yamazaki's Legacy of Innovation">
+          <div class="card-body">
+            <h5 class="card-title">Yamazaki's Legacy of Innovation</h5>
+            <p class="card-text">Yamazaki Distillery's pioneering role in Japanese whisky production has cemented its status as a trailblazer in the industry. The distillery's relentless pursuit of innovation and quality has led to the development of groundbreaking techniques and expressions that have captivated whisky enthusiasts worldwide. Stories of Yamazaki's dedication to pushing the boundaries of whisky-making inspire awe and admiration among connoisseurs, further enhancing the mystique surrounding the distillery and its whiskies.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sixth Card: Global Recognition and Prestige -->
+      <div class="col-md-12 mb-4">
+        <div class="card">
+          <img src="M05.jpeg" class="card-img-top" alt="Global Recognition and Prestige">
+          <div class="card-body">
+            <h5 class="card-title">Global Recognition and Prestige</h5>
+            <p class="card-text">Yamazaki whiskies, with their unique combination of Japanese craftsmanship and Mizunara oak influence, have garnered global recognition and prestige, winning numerous awards and accolades from international spirits competitions. The allure of Yamazaki whiskies, shrouded in myths and legends, continues to captivate whisky aficionados and collectors, elevating them to iconic status in the world of whisky.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Your Whiskey Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Include Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
